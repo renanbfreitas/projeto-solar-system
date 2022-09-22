@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("./images/background.png");
+  background-image: url('./images/background.png');
   color: orange;
 }
 
@@ -18,7 +18,7 @@ header {
 
 .title {
   color: orange;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   font-size: 15pt;
   font-weight: 300;
   margin: 60px auto 20px;
@@ -53,8 +53,8 @@ header {
 .missionsCard {
   border: 1px solid white;
   border-radius: 20px;
+  display: inline-block;
   margin: 20px 30px;
   padding: 20px;
   width: 25%;
-  display: inline-block;
 }
