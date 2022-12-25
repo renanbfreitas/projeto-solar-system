@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Shadows+Into+Light&display=swap') ;
+
 .App {
   text-align: center;
 }
@@ -8,18 +10,21 @@ body {
 }
 
 header {
+  font-family: Nabla , cursive;
   font-size: 10pt;
   text-align: center;
 }
 
 .solarSystem {
+  font-family: Nabla , cursive;
+  font-size: 20pt;
   text-align: center;
 }
 
 .title {
   color: orange;
-  font-family: monospace;
-  font-size: 15pt;
+  font-family: Nabla , cursive;
+  font-size: 20pt;
   font-weight: 300;
   margin: 60px auto 20px;
   padding: 10px;
@@ -46,6 +51,8 @@ header {
 .missions {
   align-items: baseline;
   display: block;
+  font-family: Nabla , cursive;
+  font-size: 18pt;
   justify-content: space-evenly;
   text-align: center;
 }
