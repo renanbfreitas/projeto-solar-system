@@ -2,7 +2,6 @@
   "name": "solar-system",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://renanbfreitas.github.io/projeto-solar-system/",
   "engines": {
     "node": "16"
   },
@@ -20,8 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint:styles": "npx stylelint '**/*.css'",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
   },
   "eslintConfig": {
     "extends": [
